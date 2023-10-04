@@ -201,6 +201,10 @@ h1::after {
   }
   .product-info figure {
     margin: 0;
+    opacity: 0;
+  }
+  .product-card:hover > .product-info figure {
+    opacity: 1;
   }
   .product-info figure img {
     width: 35px;
